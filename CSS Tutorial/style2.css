@@ -40,10 +40,12 @@ rgb where r,g and b values between 0 to 255*/
   background-color: #9f3f3f;
 }
 
+
 /* HEX color model -   Syntx: #RRGGBB */
 /* Alpha Channel -> RGB's extension for opacity control. Its range was 0-1
 helps in adjustment of transperency levels in colors
 Helps in creation of visual effects like Shadow and Overlays  */
+
 
 #Box1 {
   background-color: red;
@@ -61,6 +63,7 @@ Helps in creation of visual effects like Shadow and Overlays  */
   width: 60px;
 }
 
+
 /* Alternative way write the above code was all id has same class. Then define attributes for that class */
 .Boxx {
   height: 60px;
@@ -76,6 +79,8 @@ Helps in creation of visual effects like Shadow and Overlays  */
 #Box6 {
   background-color: orchid;
 }
+
+
 
 /* Background image property */
 #icon {
