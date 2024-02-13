@@ -1,0 +1,57 @@
+/*CSS has 3 type styling- 1. Inline 2. Internal 3. External
+ Inline styling has priority */
+
+/*  *(Wildcard) means Universal Selector , It has least priority*/
+* {
+  color: white;
+}
+
+/* Element Selector */
+h1 {
+  color: blue;
+}
+p {
+  color: green;
+}
+
+
+/* id selector -> For styling id we use #id_name*/
+#First {
+  color: coral;
+}
+
+#Second {
+  color: lightblue;
+}
+
+
+
+/*class slector -> For styling class we use .id_name*/
+.class1 {
+  color: green;
+  background-color: aqua;
+}
+.class2 {
+  color: chartreuse;
+  background-color: skyblue;
+}
+
+
+
+/* Group Selector -> write using ,  */
+h3,
+h4,
+h5 {
+  color: red;
+}
+
+
+
+/* Descendent Selector */
+#first p {
+  color: darkcyan;
+}
+
+p {
+  color: darkblue;
+}

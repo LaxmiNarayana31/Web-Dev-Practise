@@ -1,0 +1,107 @@
+#first1 {
+  color: blue;
+  background-color: aqua;
+}
+
+#second2 {
+  color: red;
+  background-color: bisque;
+}
+
+button {
+  color: darkgray;
+  background-size: 0cqw;
+}
+
+/* * {
+  margin: 10px;
+  padding: 10%;
+} */
+
+/* Color Theory -> You create any color by using these 3 colors:
+R(Red), G(Green), B(Blue) These 3 colors are foundtion colors
+
+rgb where r,g and b values between 0 to 255*/
+
+#first {
+  background-color: rgb(125, 230, 135);
+}
+#second {
+  background-color: rgb(225, 120, 135);
+}
+#third {
+  background-color: rgb(80, 96, 133);
+}
+#fourth {
+  background-color: rgb(190, 210, 169);
+}
+#fifth {
+  background-color: rgb(231, 131, 212);
+  background-color: #9f3f3f;
+}
+
+/* HEX color model -   Syntx: #RRGGBB */
+/* Alpha Channel -> RGB's extension for opacity control. Its range was 0-1
+helps in adjustment of transperency levels in colors
+Helps in creation of visual effects like Shadow and Overlays  */
+
+#Box1 {
+  background-color: red;
+  height: 60px;
+  width: 60px;
+}
+#Box2 {
+  background-color: green;
+  height: 60px;
+  width: 60px;
+}
+#Box3 {
+  background-color: aqua;
+  height: 60px;
+  width: 60px;
+}
+
+/* Alternative way write the above code was all id has same class. Then define attributes for that class */
+.Boxx {
+  height: 60px;
+  width: 60px;
+}
+
+#Box4 {
+  background-color: blueviolet;
+}
+#Box5 {
+  background-color: skyblue;
+}
+#Box6 {
+  background-color: orchid;
+}
+
+/* Background image property */
+#icon {
+  background-image: url(Images/githubimage.png);
+  height: 50px;
+  width: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+/* This techniques is called shorthand where multiple values are defined in a single line */
+#icon {
+  background: green url() no-repeat contain top;
+}
+
+/* Visibility Property */
+.boxx {
+  height: 60px;
+  width: 60px;
+}
+#Box7 {
+  background-color: aqua;
+  visibility: hidden; /* vvisibility: collapse;  */
+}
+#Box8 {
+  background-color: brown;
+  visibility: visible;
+}
