@@ -25,7 +25,7 @@ p {
 }
 
 
-/*class slector -> For styling class we use .id_name*/
+/*class slector -> For styling class we use .class_name*/
 .class1 {
   color: green;
   background-color: aqua;
@@ -37,7 +37,7 @@ p {
 
 
 
-/* Group Selector -> write using ,  */
+/* Group Selector -> write using  ,(comma-sign)  */
 h3,
 h4,
 h5 {
