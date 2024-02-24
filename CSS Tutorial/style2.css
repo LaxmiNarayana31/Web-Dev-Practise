@@ -84,18 +84,21 @@ Helps in creation of visual effects like Shadow and Overlays  */
 
 /* Background image property */
 #icon {
-  background-image: url(Images/githubimage.png);
-  height: 50px;
-  width: 30px;
+  background-image: url(https://th.bing.com/th/id/OIP.ZfIQIYuS-cZFg_1AzC7uHQHaHa?rs=1&pid=ImgDetMain);
+  height: 70px;
+  width: 80px;
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;  /* Avoid repeatation */
   background-position: top;
 }
+
 
 /* This techniques is called shorthand where multiple values are defined in a single line */
 #icon {
   background: green url() no-repeat contain top;
 }
+
+
 
 /* Visibility Property */
 .boxx {
@@ -104,7 +107,7 @@ Helps in creation of visual effects like Shadow and Overlays  */
 }
 #Box7 {
   background-color: aqua;
-  visibility: hidden; /* vvisibility: collapse;  */
+  visibility:hidden; /* visibility: visible;  */
 }
 #Box8 {
   background-color: brown;
