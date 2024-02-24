@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#button {
+  padding: 5px 10px 15px 20px; /* defined in clockwise order like top, right, bottom, left */
+  background-color: aqua;
+  color: black;
+  height: 50px;
+  width: 90px;
+}
+
+.demo {
+  background-color: skyblue;
+  height: 50px;
+  width: 50px;
+}
+
+#Hey {
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+}
+
+#hello {
+  height: 100px;
+  width: 100px;
+  border: 5px dashed black; /* style is different types solid, dotted, dashed */
+  background-color: aquamarine;
+}
+
+#Button {
+  height: 90px;
+  width: 90px;
+  background-color: lightcoral;
+  border: 5px solid blue;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
