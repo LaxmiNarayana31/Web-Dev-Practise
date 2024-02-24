@@ -13,6 +13,7 @@ button {
   background-size: 0cqw;
 }
 
+
 /* * {
   margin: 10px;
   padding: 10%;
@@ -22,6 +23,7 @@ button {
 R(Red), G(Green), B(Blue) These 3 colors are foundtion colors
 
 rgb where r,g and b values between 0 to 255*/
+
 
 #first {
   background-color: rgb(125, 230, 135);
@@ -62,6 +64,7 @@ Helps in creation of visual effects like Shadow and Overlays  */
   height: 60px;
   width: 60px;
 }
+
 
 
 /* Alternative way write the above code was all id has same class. Then define attributes for that class */
