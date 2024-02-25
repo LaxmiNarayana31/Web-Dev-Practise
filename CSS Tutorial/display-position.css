@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background: yellow;
+  margin: 10px;
+  text-align: center;
+  border: 5px solid #0000ff;
+  border-radius: 10px;
+
+  display: inline-block; /* By default it is set to block */
+  /* when you set dispaly as inline when can't decide height and width. So we can use display-inline mmeans show inline but carry block properties */
+}
+
+/*  
+ #box2{
+  display: none;     /* box2 don't take any space 
+} */
+
+/* 
+Responsive website -> For this we need relative units 
+CSS different units
+px -> absolute pixel value
+em -> relative to the font size of element  
+rem -> relative to the font size of the root element 
+% -> A percentage of the parent element. 100% is the width of the parent element
+vh -> Relative to 1% of the viewport's height 
+vw -> Relative to 1% of the viewport's width
+*/
+
+/* Relative unit in % */
+#demo {
+  height: 200px;
+  width: 200px;
+  background-color: lightgoldenrodyellow;
+  font-size: 25px;
+}
+#demo2 {
+  background-color: blueviolet;
+  height: 30%; /* 30% of parent height */
+  width: 50%; /* half size of parent width */
+}
+
+/* Relative unit in em */
+#demo3 {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  font-size: 25px;
+}
+#demo4 {
+  background-color: lightblue;
+  height: 30%;
+  width: 50%;
+  font-size: 2em; /* twice of my parent font size means 50px */
+}
+
+/* Relative unit in rem */
+#demo5 {
+  height: 200px;
+  width: 200px;
+  background-color: lightcoral;
+  font-size: 25px;
+}
+#demo6 {
+  background-color: lightgreen;
+  height: 30%;
+  width: 50%;
+  font-size: 2rem; /* all most same to em*/
+}
+
+/* Relative unit in vh/vw */
+#hello {
+  background-color: red;
+  height: 200px;
+  width: 500px;
+  text-align: center;
+}
+
+/* Position Property */
+.position {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  background-color: cornflowerblue;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+#div1 {
+  position: static;
+}
+#div2 {
+  position: relative;
+  top: 20px;
+  left: 90px;
+}
+#div3 {
+  position: fixed;
+  top: 20px;
+  left: 90px;
+}
+#div4 {
+  position: absolute; /* absolute used for element overlapping in some website */
+  top: 200px;
+  left: 200px;
+}
