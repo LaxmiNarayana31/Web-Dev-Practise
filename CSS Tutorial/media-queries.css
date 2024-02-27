@@ -1,0 +1,20 @@
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: cornflowerblue;
+  text-align: center;
+}
+
+/* This is more used in width not for height 
+It also used as min-width or max-width not exact width */
+ @media screen and (width: 300px) { 
+  .box {
+background: red;
+  }
+}
+
+ @media screen and (min-width: 300px) and (max-width: 500px) { 
+  .box {
+background: aqua;
+  }
+}
